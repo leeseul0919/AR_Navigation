@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3287617329260309775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7108757230234098727}
+  - component: {fileID: 3237629468804783262}
+  m_Layer: 0
+  m_Name: NavigationManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7108757230234098727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3287617329260309775}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 986.5117, y: 441.73825, z: -251.88655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3237629468804783262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3287617329260309775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4608801ae44c644f9a1844801288687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  navigation_text: {fileID: 0}
+  nickname: 
+  button1: {fileID: 0}
+  button2: {fileID: 0}
+  button3: {fileID: 0}
+  button4: {fileID: 0}
+  minimap: {fileID: 0}
+  idpanel: {fileID: 0}
+  searchinput: {fileID: 0}
+  searchbutton: {fileID: 0}
+  createbutton: {fileID: 0}
+  firsttext: {fileID: 0}
+  obstacle_manager: {fileID: 0}
+  real_player_ar: {fileID: 0}
+  search_list: {fileID: 0}
+  Obstacle_list: {fileID: 0}
+  obstacle_st_text: {fileID: 317638377171843511, guid: 817b5aac866bc9d49828ba97d3c0f6ac, type: 3}
+  st1: 0
+  targetCamera: {fileID: 0}
+  priority: 2
+  vuforia_searching: {fileID: 0}
+  cubePrefab: {fileID: 0}
+  obs_edit: 0
+  edit_st: 0
+  start_pos: {x: 0, y: 0, z: 0}
+  end_pos: {x: 0, y: 0, z: 0}
