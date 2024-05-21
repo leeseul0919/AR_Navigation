@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="zzanggu" size="0.264583 0.264583" />
+    <ImageTarget name="menggo" size="0.130175 0.130175" />
+  </Tracking>
+</QCARConfig>
